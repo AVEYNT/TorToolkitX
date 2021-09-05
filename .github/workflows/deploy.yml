@@ -23,3 +23,7 @@ jobs:
           HD_ALD_USR: ${{secrets.ALD_USR}}
           HD_BASE_URL_OF_BOT: ${{secrets.BASE_URL_OF_BOT}}
           HD_OWNER_ID: ${{secrets.OWNER_ID}}
+          HD_TG_UP_LIMIT: ${{secrets.TG_UP_LIMIT}}
+          HD_LEECH_ENABLED: ${{secrets.LEECH_ENABLED}}
+          HD_DEFAULT_TIMEOUT: ${{secrets.DEFAULT_TIMEOUT}}
+          HD_MAX_YTPLAYLIST_SIZE: ${{secrets.MAX_YTPLAYLIST_SIZE}}
