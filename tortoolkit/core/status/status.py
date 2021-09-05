@@ -244,6 +244,7 @@ class ARTask(Status):
         msg += "<b>ETA:</b> <b>{}</b>\n".format(self._dl_file.eta_string())
         msg += "<b>Conns:</b>{} <b>\n".format(self._dl_file.connections)
         msg += "<b>Using engine:</b> <code>Aria2 For DirectLinks</code>"
+        msg += "<b>🔹Upload using LeecherPro"
 
         return msg
 
